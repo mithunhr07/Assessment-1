@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>Assessment</title>
+		
 		<link rel="stylesheet" type="text/css" href="./css/file.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<style>
@@ -17,20 +18,18 @@
 			  <a href="#" class="fa fa-facebook"></a>
 			  <a href="#" class="fa fa-twitter"></a>
 			  <a href="#" class="fa fa-google"></a>
-			  <a class="alignright" href="#signup">Sign up</a>
-			  <a class="alignright1" href="#login">Log in</a>
+			  <a class="alignright" href="demo1.html">Sign up</a>
+			  <a class="alignright1" href="demo1.html">Log in</a>
 			</nav><br><br><br><br><br><br>
 		<div id="home">	
-		  		<div class="homepage">
-		    		<img src="images/img.jpeg" width="90%" height="500px">
-		   	 		<div class="homepage1">We are the best <br> consulting agency <br></div>
-		   	 		<div class="homepage2">Ultra Consultants is an independent research advisory and <br> consulting firm serving the manufacturing and<br> distribution industries.</div>
-		   	 		<a href="#login"><button type="button" class="homepage3">Get started</button></a>
-		  		</div>
-		</div><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		  <div class="container">
+		  <img src="./images/img.jpeg" height="350" width="700" class="align">
+		  <button class="btn">Get Started</button>
+		  </div>
+		</div><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 		<div id="about">
-			<div class="move">
-		    <div class="mySlides"><img src="images/img1.jpg" width="90%" height="500px"></div>
+			<div>
+		<div class="mySlides"><img src="images/img1.jpg" width="90%" height="500px"></div>
 			<div class="mySlides"><img src="images/img2.jpg" width="90%" height="500px"></div>
 			<div class="mySlides"><img src="images/img3.jpg" width="90%" height="500px"></div>
 			<script  src="./javascript/file1.js"></script>
@@ -87,7 +86,7 @@
 		       		<p>Mithun</p>
 		       		<p class="text">Software Developer</p>
 		       		<div class="overlay">
-		       		  <a href="#" title="User Profile">
+		       		  <a href="#"title="User Profile">
 		       		    <i class="fa fa-facebook"></i>
 		       		  </a>
 		       		  <a href="#" title="User Profile">
@@ -211,52 +210,10 @@
 		       		</div>
 		       	</div>
 		        </div>
-		    </div>
-		        </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-		    <div id="event"  class="background">
-		    <div>
-		    	<label id="Greetings"></label>
-	            <script >
-	                      var myDate = new Date();
-	                      var hrs = myDate.getHours();
-                          var greet;
-                          if (hrs < 12)
-	                      greet = 'Good Morning';
-	                      else if (hrs >= 12 && hrs <= 17)
-	                      greet = 'Good Afternoon';
-	                      else if (hrs >= 17 && hrs <= 24)
-	                      greet = 'Good Evening';
-                          document.getElementById('Greetings').innerHTML =
-	                     '<b>' + greet + '</b>'+','+"<br>"+'User';
-	            </script>
-		    </div>
-		    <div class="date">
-		    	<label id="greeting_1"></label>
-		    	<script>
-		    		var d = new Date();
-		    		document.getElementById("greeting_1").innerHTML = d;
-                    function removeElement(parentDiv, childDiv){
-		    		if (childDiv == parentDiv) {
-		    		        alert("The parent div cannot be removed.");
-		    		}
-		    		else if (document.getElementById(childDiv)) {     
-		    		    var child = document.getElementById(childDiv);
-		    		    var parent = document.getElementById(parentDiv);
-		    		    parent.removeChild(child);
-		    		  }
-		    	    }
-		    	</script>
-		    </div>
-		    <div class="temperature">
-		    	<p>Temperature<br><img src="./images/img15.jpeg" class="temp"><br></p>
-		    	<p class="center">57F</p>
-		    </div>
-		    <div class="signalcontainer">
-		    	<p align=center>Signal</p><br>
-		        <p><img src="./images/img16.jpeg" class="signal"></p>
-		    </div><br><br>  
+		        </div>
+		    <div id="event"  class="background">  
 		    <div class="one">
-		    <p>Fri<br>4<br>May</p>
+		    	<p>Fri<br>4<br>May</p>
 		    <img src="./images/img.jpeg" class="imgalign">
 		    <p class="paralign"><b>Visvesvaraya Technological University (VTU, previously spelled "Visveswaraiah Technological University")</b> is a collegiate Public State University in Karnataka State of the Republic of India, established by the Government of Karnataka.[9] Apart from a few notable exceptions, VTU has authority over engineering education all over the state of Karnataka. It is a statutory requirement for colleges offering any program in engineering or technology in the state to be affiliated with the university.The university is named after M.
 		    </p>
@@ -273,38 +230,36 @@
 		    	<p class="paralign"><b>Visvesvaraya Technological University (VTU, previously spelled "Visveswaraiah Technological University")</b> is a collegiate Public State University in Karnataka State of the Republic of India, established by the Government of Karnataka.[9] Apart from a few notable exceptions, VTU has authority over engineering education all over the state of Karnataka. It is a statutory requirement for colleges offering any program in engineering or technology in the state to be affiliated with the university.
 		    </p>
 		    </div>
-		    </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-			<div class="form" id="signup">
+		    </div>
+			<div class="form">
 				<center>Register as a 
 					<span ><select class="dropdown">Resident 
-								<option>Address</option>
-								<option>place</option>
-								<option>Town</option>
-								<option>District</option>
+								<option>Resident</option>
+								<option>Work</option>
 							</select>
 					</span>
 				</center>
-				<form>
+				<form >
 					<div id="gridcontainer">
-						Frist Name
+						<div class="signup_page_data_fn">Frist Name</div>
 						<div class="signup_page_data_sn">Second Name</div>
 						<div class="first_span"><input type="text"  id="align_padd" name="firstname" class="fname"></div>
 						<div class="second_span"><input type="text" id="align_padd"name="sceondname"></div>
-						<div>Email</div>
+						<div class="signup_page_data_fn">Email</div>
 						<div  class="signup_page_data_sn">Phone No</div>
 						<div class="first_span"><input type="text"  id="align_padd"name="email"></div>
-						<div class="second_span"><input type="text"  id="align_padd" name="phonenum" id="phonenum"></div>
-						<div>Street Address1</div>
-						<div class="signup_page_data_sn">Street Address2</div>
+						<div class="second_span"><input type="text"  id="align_padd" name="phoneno" id="phonenum"></div>
+						<div class="signup_page_data_fn">Street Address1</div>
+						<div  class="signup_page_data_sn">Street Address2</div>
 						<div class="first_span"><input type="text" id="align_padd" placeholder ="Street Address1"></div>
-						<div class="second_span"><input type="text" id="align_padd" placeholder ="Street Address2"></div>
-						<div>City</div>
+						<div  class="second_span"><input type="text" id="align_padd" placeholder ="Street Address2"></div>
+						<div class="signup_page_data_fn">City</div>
 						<div class="state_span">State</div>
 						<div>Zip code</div>
 						<div class="first_span"><input type="text" id="align_padd" placeholder ="city"></div>
-						<div><input type="text" placeholder ="state"></div>
+						<div ><input type="text" placeholder ="state"></div>
 						<div><input type="text" placeholder ="zip code"></div>
-						<div>Create Passward</div>
+						<div class="signup_page_data_fn">Create Passward</div>
 						<div class="signup_page_data_sn">Verify Passward</div>
 						<div class="first_span"><input type="text"  id="align_padd"name="createpassward"></div>
 						<div class="second_span"><input type="text" id="align_padd"name="verifypassward"></div>
@@ -312,18 +267,7 @@
 					<center><button id="buttonpro">SUBMIT</button></center>
 					<div id="Align_account">Already I have an account<button id="login_button">login</button></div>
 				</form>
-		    </div><br><br><br><br><br><br><br><br><br><br><br>
-		<div class="form1" id="login">
-				<form class="form_align">
-					<div><img src="images/apple.png"  class="img_align" width="80px" height="80px"></div>
-					<div class="font">qhub</div><br>
-					<div>Email:<br><input type="text" name="email"></div><br>
-					<div>Password:<br><input type="password" name="password"></div><br>
-					<center><button id="buttonpro1">SUBMIT</button></center>
-					<div class="textcolor">Forgot Password?</div>
-					<div id="Align_account1">Don't have an Account<button id="login_button1">Sign-Up</button></div>
-				</form>
-		</div>    
+		</div>
         		
 	</body>
 </html>

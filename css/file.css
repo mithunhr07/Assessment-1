@@ -11,15 +11,15 @@ padding:10px;
 text-decoration: none;
 }
 .zxc{
-	text-decoration: none;
+  text-decoration: none;
 }
 .vbn{
 padding:15px;
 text-decoration: none;
 }
 .asd{
-	padding:7px;
-	text-decoration: none;
+  padding:7px;
+  text-decoration: none;
 }
 .fa:hover {
     opacity: 0.7;
@@ -39,18 +39,38 @@ text-decoration: none;
   color: white;
 }
 .alignright{
-	padding-left: 850px;
-	text-decoration: none;
+  padding-left: 850px;
+  text-decoration: none;
 }
 .alignright1{
-	text-decoration: none;
+  text-decoration: none;
 }
-.container {
+.align{
+  margin-left: 275px;
+}
+.homepage{
   position: relative;
+  text-align: center;
+  color: white;
 }
-.container .btn {
+.homepage1 {
   position: absolute;
-  top: 50%;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 70px;
+}
+.homepage2{
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.homepage3{
+  position: absolute;
+  top: 70%;
   left: 45%;
   background-color: red;
   color: white;
@@ -60,27 +80,12 @@ text-decoration: none;
   border-radius: 15px;
   text-align: center;
 }
-.align{
-	margin-left: 275px;
-}
-
-.container .btn:hover {
-  background-color: black;
-}
-/*.button1{
-	float: left;
-	background-color: #e91e63;
-	color: #ffffff;
-	margin-top: -111px;
-	margin-left: 611px;
-	border-radius: 60px;
-}*/
 .move{
-	margin-left: 275px;
+  margin-left: 120px;
 }
 .text-block {
   position: absolute;
-  bottom: -692px;
+  bottom: -850px;
   right: 209px;
   background-color: #928888;
   color: white;
@@ -95,18 +100,17 @@ color: red;
 }
 .alig{
 display:grid;
-/*justify-content: space-around;*/
 grid-template-columns: 200px 200px 200px 200px ;
 grid-gap: 10px;
-margin-left: 150px;
+margin-left: 250px;
 }
 .text{
   font-size: 15px;
   color: grey;
 }
 .overlay {
-  position: absolute;
-  top: 0;
+  position: relative;
+  top: -140px;
   bottom: 0;
   left: 0;
   right: 0;
@@ -125,10 +129,10 @@ margin-left: 150px;
 }
 
 .one{
- /* border-style: ridge;*/
   background-color: white;
   height:100px;
   padding: 50px;
+  margin-right: 250px;
 }
 .imgalign{
   margin-left: 40px;
@@ -147,4 +151,153 @@ margin-left: 150px;
 .add{
   height:800px;
   width:100%;
-}  
+}
+.form{
+    background-color: grey;
+    width: 800px;
+    margin-left: 250px;
+  }
+  .dropdown{
+    border-radius: 15px;
+    border:1px solid blue;
+    color: blue;
+    width: 100px;
+    padding: 5px;
+    margin-left: 50px;
+
+  }
+  #gridcontainer{
+    display: grid;
+    grid-template-columns: 170px 170px 170px 170px;
+    grid-template-rows: 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    margin-left: 20px;
+  }
+  .first_span{
+    grid-column: 1/3;
+  }
+  .second_span{
+    grid-column: 3/5
+  }
+  .signup_page_data_sn{
+    grid-column: 3/5;
+  }
+  .state_span{
+    grid-column: 3/4;
+  }
+    #align_padd{
+      padding-right: 100px;
+      padding-top: 5px;
+
+    }
+    #buttonpro{
+      margin-top: 10px;
+      padding-left: 20px;
+      border-radius: 15px;
+      width: 150px;
+      height: 35px;
+      border-color: blue;
+      background-color: blue;
+      color: white;
+    }
+    #Align_account{
+      text-align: center;
+      color: white;
+    }
+    #login_button{
+      margin-top: 10px;
+      border-color: lightgrey;
+      background-color: lightgrey;
+      width: 50px;
+      height: 25px;
+      border-radius: 15px;
+      margin-left: 12px;
+      color: blue;
+    }
+.form1{
+    background-color: grey;
+    width: 789px;
+    height: 325px;
+    margin-left: 250px;
+  }
+.form_align{
+  margin-left: 320px;
+}
+#buttonpro1{
+  padding: 10px;
+  border-radius: 15px;
+  width: 150px;
+  height: 35px;
+  background-color:#00c4ff;
+  color: white;
+  border-color:#00c4ff;
+  margin-left: -300px;
+}
+.textcolor{
+  color:lightblue;
+  margin-left:100px; 
+}
+#Align_account1{
+      text-align: center;
+      color: white;
+      font-size: 22px;
+      margin-left: -300px;
+    }
+#login_button1{
+    margin-top: 10px;
+    border-color: darkgrey;
+    background-color: darkgrey;
+    width: 90px;
+    height: 40px;
+    border-radius: 15px;
+    margin-left: 12px;
+    color: blue;
+    font-size: 15px;
+    }
+.img_align{
+ margin-left: -85px;
+}
+.font{
+  font-size: 70px;
+  margin-top: -80px;
+}
+.date{
+  margin-left: 375px;
+  margin-top: -35px;
+  border: 1px solid black;
+  height: 110px;
+  width: 100px;
+}
+.temp{
+  height:20px;
+  width:20px;
+  border-radius: 50%;
+  margin-left: 29px;
+}
+.temperature{
+  margin-left: 510px;
+  margin-top: -112px;
+  border: 1px solid black;
+  height: 90px;
+  width: 85px;
+  padding:10px;
+}
+.signal{
+  height:20px;
+  width:20px;
+  margin-left: 33px;
+}
+.signalcontainer{
+  margin-left: 650px;
+  margin-top: -112px;
+  border: 1px solid black;
+  height: 90px;
+  width: 85px;
+  padding:10px;
+}
+.center{
+  text-align-last: center;
+  margin-top: -20px;
+}
+     
